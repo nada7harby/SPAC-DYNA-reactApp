@@ -10,7 +10,7 @@
 }
 .contenet_main h1 {
   text-transform: uppercase;
-  font-size: 60px;
+  /* font-size: 60px; */
 }
 .contenet_main h1 span {
   color: rgb(4, 115, 212);
@@ -25,9 +25,9 @@
   right: 0;
 }
 .Content-container::after {
-               content: url("../Imgs/baner-dec-left.png");
-             
-               position: absolute;
-               left: 0;
-               top: 0;
-             }
+  content: url("../Imgs/baner-dec-left.png");
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}

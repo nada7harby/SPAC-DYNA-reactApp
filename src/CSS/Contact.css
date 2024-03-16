@@ -6,3 +6,15 @@
   align-items: center;
   justify-content: center;
 }
+img{
+  width: 100%;
+}
+.form-contact{
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 40px 1px #000;
+  margin-top: 20px;
+}
+.form-check-input{
+  accent-color: red;
+}

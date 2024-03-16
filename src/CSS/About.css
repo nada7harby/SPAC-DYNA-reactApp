@@ -11,6 +11,8 @@
 }
 .about_data {
   display: flex;
+  align-items: center;
+
 }
 
 .Data {
@@ -22,4 +24,26 @@
 .Data2 {
   position: relative;
   bottom: -40px;
+}
+
+@media (max-width: 576px) {
+  .About{
+    background: none;
+  }
+  .Data {
+    flex-wrap: nowrap;
+  }
+  .Data2 > div {
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(
+      105deg,
+      rgba(255, 77, 30, 1) 0%,
+      rgba(255, 44, 109, 1) 100%
+    );
+    border-radius: 20px;
+  }
+  .about_data div{
+      
+  }
 }

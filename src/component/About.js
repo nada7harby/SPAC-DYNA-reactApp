@@ -5,6 +5,7 @@ import "../CSS/About.css";
 import sev_img from "../Imgs/service-icon-01.png";
 import sev_img2 from "../Imgs/service-icon-02.png";
 import sev_img3 from "../Imgs/service-icon-03.png";
+import Footer from "./Footer";
 
 function About() {
   const arr = [
@@ -35,7 +36,7 @@ function About() {
   ];
  const arr2 = arr.map((ele) => {
     return (
-      <div className="col-lg-6 col-sm-5 about_data">
+      <div className="col-lg-6 col-sm-6 col-7 about_data">
         <div>
           <img src={ele.img} />
         </div>
@@ -53,12 +54,13 @@ function About() {
         <div className="col-lg-5 col-sm-5">
           <img src={About_img} className="About_img" />
         </div>
-        <div className="col-lg-6 col-sm-5 Data">
-          <div className="row m-0 Data2">
+        <div className="col-lg-6 col-sm-7 Data">
+          <div className="row m-0 Data2 justify-content-center ">
           {arr2}
           </div>
         </div>
       </div>
+      
     </>
   );
 }
