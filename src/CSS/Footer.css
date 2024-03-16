@@ -1,0 +1,14 @@
+.footer {
+  color: rgb(67, 130, 188);
+  background-color: rgb(232, 241, 246);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+}
+.footer a {
+  text-decoration: none;
+  color: red;
+  padding-left: 10px;
+}

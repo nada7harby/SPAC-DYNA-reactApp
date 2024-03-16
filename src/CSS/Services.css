@@ -1,0 +1,40 @@
+.span1 {
+  color: rgb(67, 130, 188);
+}
+.span2 {
+  color: red;
+}
+.img_serv {
+  width: 100%;
+}
+.content2 {
+  padding-top: 40px;
+  text-align: left;
+  padding: 100px 0;
+ 
+}
+.content2 p {
+  padding: 20px 0px;
+}
+.progresss div {
+  position: relative;
+}
+.progresss div span {
+  position: absolute;
+  top: -20px;
+  height: 15px;
+}
+.num1 {
+  left: 72%;
+}
+.num2 {
+  left: 84%;
+}
+.num3 {
+  left: 94%;
+}
+
+progress {
+  width: 100%;
+  accent-color: rgb(233, 12, 12);
+}

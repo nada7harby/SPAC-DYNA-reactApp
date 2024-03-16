@@ -1,0 +1,25 @@
+.About {
+  background: url("../Imgs/about-bg.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.About_img {
+  position: relative;
+  bottom: -40px;
+  width: 80%;
+}
+.about_data {
+  display: flex;
+}
+
+.Data {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 77%;
+}
+.Data2 {
+  position: relative;
+  bottom: -40px;
+}

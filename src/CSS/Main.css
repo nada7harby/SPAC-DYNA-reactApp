@@ -1,0 +1,33 @@
+.Bannar_image {
+  width: 100%;
+}
+.contenet_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+.contenet_main h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.contenet_main h1 span {
+  color: rgb(4, 115, 212);
+}
+.contenet_main h1 .Span2 {
+  color: rgb(238, 25, 25);
+}
+.Content-container::before {
+  content: url("../Imgs/baner-dec-right.png");
+
+  position: absolute;
+  right: 0;
+}
+.Content-container::after {
+               content: url("../Imgs/baner-dec-left.png");
+             
+               position: absolute;
+               left: 0;
+               top: 0;
+             }

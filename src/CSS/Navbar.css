@@ -1,0 +1,23 @@
+nav {
+  box-shadow: rgb(26 29 30 / 58%) 1px 1px 20px 1px !important;
+}
+
+
+.brand {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #03a4ed !important;
+  float: left;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.brand span {
+  color: red;
+}
+.navbar-nav a {
+  color: rgb(34, 33, 33);
+  text-decoration: none;
+}

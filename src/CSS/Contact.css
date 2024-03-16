@@ -1,0 +1,8 @@
+.contenet {
+  padding: 60px 0;
+}
+.contact_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
